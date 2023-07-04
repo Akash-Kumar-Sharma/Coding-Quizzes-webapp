@@ -23,14 +23,68 @@
   
 }
 #main-container{
+    margin: 30px 30px;
    
 }
-.abc{
-    border: 10px soid red;
-    background-color:#406CA9;
-    width: 300px;
-    height: 350px;
-    margin: 30px;
+  
 
-   
+.btn:hover{
+    cursor: pointer;
+    border: 2px solid orange;
 }
+#ans-1{
+    background-color:#406CA9;
+}
+
+#ans-2{
+    background-color: #509AA4; 
+}
+
+#ans-3{
+    background-color: #E2AB48;
+}
+#ans-4{
+    background-color: #C94E08;
+}
+/* Hover Section on Answer */
+#ans-1:hover{
+    background-color: #5578aa;
+}
+#ans-2:hover{
+    background-color: #549097 ;
+}
+#ans-3:hover{
+    background-color:#d9b36d ;
+}
+#ans-4:hover{
+    background-color: #b25d2b;
+}
+.btn{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: center;
+    font-size: 32px;
+    display: inline-block;
+    border-radius: 7px;
+    width: 320px;
+    height: 300px;
+    margin: 10px;
+    outline: none;
+    border: none;
+  
+}
+/* .count{
+    color: white;
+    border: 2px solid rgb(127, 127, 127);
+    border-radius: 7px;
+    background-color: #406CA9;
+    width: 15px;
+    padding-left: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+   margin-top: 10px;
+   margin-left: 275px;
+    padding-top: 20px;
+    
+} */
